@@ -14,7 +14,7 @@ nltk.download('punkt_tab') # Download the punkt_tab resource
 from nltk.stem import  WordNetLemmatizer
 lemmatizer= WordNetLemmatizer() 
 
-intents = json.loads(open('C:/Users/KIIT/OneDrive/Desktop/ChatbotPart_HarmioniAI/Python-Chatbot/intents.json').read())
+intents = json.loads(open('intents.json').read())
 
 words= []
 classes=[]
